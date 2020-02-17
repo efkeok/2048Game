@@ -145,5 +145,11 @@ let gameHistory = {
             default:
                 break;
         }
+    },
+    clear: function() {
+        this.index = 3;
+        this.first = [];
+        this.secend = [];
+        this.third = [];
     }
 }
