@@ -153,6 +153,7 @@ function init() {
     updateBoardView();
 
     score = 0;
+    gameHistory.clear();
     timesForReturn = 3;
     $("#times").text(timesForReturn + "次");
     $("#score").text(score);
